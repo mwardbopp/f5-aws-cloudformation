@@ -118,7 +118,8 @@
       "restrictedSrcAddress",
       "restrictedSrcAddressApp",
       "ntpServer",
-      "timezone"
+      "timezone",
+      "bigipInternalSecurityGroup"
      ]
     },
     {
@@ -235,6 +236,8 @@
     },
     "timezone": {
      "default": "Timezone (Olson)"
+    "bigipInternalSecurityGroup": {
+     "default": "Internal Security Group"
     }
    }
   },
